@@ -1,0 +1,68 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(234, 24, 24);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #e4e2e2;
+    color: rgb(234, 24, 24);
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover
+.nav-cardapio .nav-link.active:hover {
+    color: #e4e2e2;
+}
+
+.nav-cardapio .nav.link.active, #fale-conosco button{
+    background-color: rgb(234, 24, 24);
+    color: #e4e2e2;
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgb(234, 24, 24);
+}
+
+.nav-cardapio .nav-link:hover {
+    color: rgb(234, 24, 24);
+}
+
+.navbar-toggler {
+    background-color:#e4e2e2;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.titulo {
+    font-family: Pacifico, cursive;
+    font-size: 54px;
+}
+
+#sobre, #cardapio {
+    background-color: rgb(243, 222, 222);
+}
+
+.text-colored {
+    color: rgb(234, 24, 24)
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
